@@ -10,7 +10,7 @@ document.getElementById("songForm").addEventListener("submit", function(e) {
     let artist = document.getElementById("artist").value;
     let submittedBy = document.getElementById("submittedBy").value || "Anonymous";
 
-    fetch("https://script.google.com/macros/s/AKfycbxsGR2PysdWUz2rG5hF4FByMsU-Cn6GY5vQlJrvHJ6SfPd5F3y3KtSv80ZSdNE0VJvl/exec", {
+    fetch("https://script.google.com/macros/s/AKfycby5BUQSrZBwQLkrw98Dy8FvEykqDdkSQZcnV8S7hGFnOoXR8DAmGj1blqY1RH2AMuu0/exec", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ songName: songName, artist: artist, submittedBy: submittedBy })
