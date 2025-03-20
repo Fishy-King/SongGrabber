@@ -43,6 +43,7 @@ button {
     border-radius: 25px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    overflow-y: auto;
   }
 
 .items {
